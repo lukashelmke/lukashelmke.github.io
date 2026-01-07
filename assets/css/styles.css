@@ -87,14 +87,14 @@ body {
   }
 }
 
-.bio-section, .site-footer, div.boxed, .eyebrow, .top {
+.bio-section, div.boxed, .eyebrow, .top {
   width: 100%;
   max-width: 1020px;
   margin-left: auto;
   margin-right: auto;
 }
 @media (max-width: 1100px) {
-  .bio-section, .site-footer, div.boxed, .eyebrow, .top {
+  .bio-section, div.boxed, .eyebrow, .top {
     width: calc(100% - 80px);
   }
 }
@@ -432,6 +432,17 @@ div.boxed p a:hover {
   flex-wrap: wrap;
 }
 
+.site-footer .footer-inner {
+  width: 100%;
+  max-width: 1020px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (max-width: 1100px) {
+  .site-footer .footer-inner {
+    width: calc(100% - 80px);
+  }
+}
 .site-footer a {
   text-decoration: underline;
 }
