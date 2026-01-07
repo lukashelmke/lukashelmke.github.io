@@ -383,6 +383,16 @@ div.boxed p a:hover {
   display: block;
   border-radius: 10px;
   margin: 0 auto 20px auto;
+  transition: transform 0.2s ease-in-out;
+  will-change: transform;
+}
+
+.repo-thumb-link {
+  display: inline-block;
+}
+
+.repo-thumb-link:hover .repo-thumb {
+  transform: scale(1.04);
 }
 
 .repo-grid {
